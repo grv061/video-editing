@@ -1,0 +1,122 @@
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav h3{
+    font-size: 12px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+
+}
+#nav i{
+    font-size: 12px;
+    border: 1.5px solid #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: white;
+
+
+}
+#nav h1{
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(84, 76, 76);
+}
+
+#nav button{
+    padding: 10px 12px;
+    border-radius: 30px;
+    border: 1.5px solid #000 ;
+    font-size: 12px;
+    font-weight: 500;
+   
+}
+#btn2{
+    color: white;
+    background-color: orangered;
+}
+#text{
+    font-size: 150px;
+    color: rgb(174, 0, 255);
+    text-transform: uppercase;
+    font-family: unset;
+    left: 50%;
+    top: 30%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 200%;
+    text-align: center;
+    padding: 30px 30px;
+}
+img{
+    height: 250px;
+    width: 150x;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 15px;
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 15px;
+    
+}
+#iconright{
+    position: absolute;
+    bottom: 12%;
+    right: 7%;
+
+}
+#telegram{
+    position: absolute;
+    bottom: 12%;
+    right: 9%;
+
+}
+#hero-image{
+    height: 70%;
+    width: 100%;
+    background-color: orange;
+}
+#container{
+    background-color: #000;
+}
